@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <!-- action se refiere a la accion a realizar -->
+        <form method="POST">
+            <p>
+                <label for="name">Nombre:</label>
+                <input type="name" name="name" />
+            </p>
+            <p>
+                <label for="Edad">Seleciona tu rango de Edad</label>
+            </p>
+            <p>
+                <input type="radio" name="edad"> de 18 a 25
+            </p>
+            <p>
+                <input type="radio" name="edad"> de 25 a 35
+            </p>
+            <p>
+                <input type="radio" name="edad"> de 35 a 45
+            </p>
+            <p>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="email" />
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password">
+            </p>
+            <p>
+                <label for="date">Fecha</label>
+                <input type="date" name="date">
+            </p>
+            <p>
+                <label for="">Publicacion</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            <p>
+                <label for="">Color Favorito</label>
+                    <select name="color">
+                        <option value="1">Rojo</option>
+                        <option value="2">Verde</option>
+                        <option value="3">Azul</option>
+                    </select>
+            </p>
+            <p>
+                <button type="submit">Guardar datos</button>
+            </p>
+        </form>
+    </body>
+</html>
