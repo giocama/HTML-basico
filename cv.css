@@ -1,0 +1,17 @@
+#title {
+    color: red;
+    text-align: center;
+}
+
+p {
+    background-color: gray;
+}
+
+#title2 {
+    color: red;
+    background-color: gray;
+}
+
+#datos {
+    background-color: gray;
+}
