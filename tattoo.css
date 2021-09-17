@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(208, 211, 49);
+}
+
+:root {
+    --color-principal: red;
+    --titulos-importantes: 7rem;
+    --titulo-secundario: 6rem;
+    --texto-parrafo: 2.5rem;
+}
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+  
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-size: 1.6rem;
+}
+
+.principal {
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_AeG1_Y3tGShUqRr-5s7X3GiR6SAzWNUO8Q&usqp=CAU");
+    background-size: 100% 90vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.information-principal {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.information-principal h1 {
+    font-size: var(--titulos-importantes);
+}
+  
+.information-principal p {
+    width: 60%;
+    margin: 4rem 0;
+}
+  
+.information-principal .button {
+    padding: 2rem 4rem;
+    background: none;
+    border: none;
+    color: green;
+    margin-right: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.information-principal .principal-button {
+    background:orangered;
+    border: 2px solid red;
+}
+  
+.information-principal .secundario-button {
+    background:orangered;
+    border: 2px solid red;
+}
+  
+.serv-principal {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+  
+.service {
+    width: 25rem;
+    height: 25rem;
+    background: var(--color-principal);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.service img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
